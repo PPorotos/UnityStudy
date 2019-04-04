@@ -17,11 +17,13 @@ public class Prop : MonoBehaviour
         if (hp <= 0)
         {
             ParticleSystem instance = Instantiate(explosionParticle, transform.position, transform.rotation);
-            Destroy(instance.gameObject, instance.duration);
 
             AudioSource explosionAudio = instance.GetComponent<AudioSource>();
             explosionAudio.Play();
 
+            GameManager.instance.AddScore(score);
+
+            Destroy(instance.gameObject, instance.duration);
             gameObject.SetActive(false);
 
 

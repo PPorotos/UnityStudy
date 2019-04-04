@@ -1,20 +1,22 @@
 ﻿<Properties StartupConfiguration="{D42AB104-8A1E-AD52-4F3C-B5BFCFCFF18D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/02.Scripts/Prop.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameManager.cs">
     <Files>
+      <File FileName="../../Algorithm/Algorithm/Algorithm/Level1/Solution1.cs" Line="1" Column="1" />
       <File FileName="Assets/02.Scripts/ShooterRotater.cs" Line="61" Column="50" />
       <File FileName="Assets/02.Scripts/Ball.cs" Line="37" Column="43" />
       <File FileName="Assets/02.Scripts/BallShooter.cs" Line="38" Column="10" />
       <File FileName="Assets/02.Scripts/SpawnGenerator.cs" Line="56" Column="38" />
       <File FileName="Assets/02.Scripts/Prop.cs" Line="15" Column="22" />
+      <File FileName="Assets/02.Scripts/CamFollow.cs" Line="82" Column="6" />
+      <File FileName="Assets/GameManager.cs" Line="4" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AmazingBalling" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="02.Scripts" expanded="True">
-                <Node name="Prop.cs" selected="True" />
-              </Node>
+              <Node name="02.Scripts" expanded="True" />
+              <Node name="GameManager.cs" selected="True" />
             </Node>
           </Node>
         </State>

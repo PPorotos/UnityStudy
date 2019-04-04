@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\02.Scripts\Ball.cs" />
     <Compile Include="Assets\02.Scripts\BallShooter.cs" />
+    <Compile Include="Assets\02.Scripts\CamFollow.cs" />
     <Compile Include="Assets\02.Scripts\Prop.cs" />
     <Compile Include="Assets\02.Scripts\ShooterRotater.cs" />
     <Compile Include="Assets\02.Scripts\SpawnGenerator.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
     <Compile Include="Assets\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\GameManager.cs" />
     <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/jeonghunkim/Documents/UnityProject/AmazingBalling/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
